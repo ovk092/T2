@@ -1,0 +1,222 @@
+.t2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    text-align: center;
+}
+.t2 img {
+	min-width: 100%;
+	width: 100%;
+	opacity: 0.3;
+} 
+  *{ 
+	/* outline: 1px solid cadetblue;  */
+}
+html{
+	min-width: 1800px;
+}
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color:	#4F4F4F;
+}
+nav{
+    text-align: center;
+    padding: 3vh 0;
+}
+nav h1{
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    display: inline-block;
+    color: #D3D3D3;
+    vertical-align: middle;
+}
+.menu{
+    display: inline-block;
+    margin:0 100px;
+    vertical-align: middle;
+}
+.menu a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color:	#D0D0D0;
+}
+.menu a:hover{
+    color: white;
+    transition: all 1s;
+}
+.menu a + a{
+    margin-left: 100px;
+}
+.cart{
+    display: inline-block;
+    vertical-align: middle;
+}
+.cart img{
+    vertical-align: bottom;
+}
+.banner{
+    background-image: url(/img/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    text-align: center;
+}
+.banner-content{
+    padding:30px 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(240,240,240,0.4 );
+    position: relative;
+    top: 40%;
+}
+.banner-content h1{
+    font-size: 4em;
+    font-family: serif;
+    letter-spacing: 0.1em;
+    margin: 0 0 30px;
+}
+.banner-content button{
+    padding: 10px 80px;
+    background-color:	#2B2B2B	;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: none;
+}
+.message{
+    font-size: 1.5em;
+    background-color:	#F0F0F0;
+    text-align: center;
+    letter-spacing: 0.2em;
+    padding: 10px 0 ;
+    font-family: 'Raleway', sans-serif;
+    color: #4F4F4F;
+}
+article{
+    margin: 12vh auto;
+}
+.information{
+    text-align: center;
+}
+.information h3{
+    letter-spacing: 0.3em;
+    font-size: 3.5em;
+    font-family: serif;
+    margin: 0;
+}
+.information hr{
+    width: 3em;
+    font-weight: 500;
+    margin: 50px auto;
+}
+.information h4{
+    font-size: 2em;
+    letter-spacing: 0.5em;
+    font-family: serif;
+    margin: 0;
+}
+.product{
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 0;
+}
+.product a+a{
+    margin-left:1%;
+}
+.product a :hover{
+    position: relative;
+    top:5vh;
+}
+footer{
+    background-color: 	#4F4F4F;
+    padding: 8vh 0  6vh;
+    color: #D0D0D0;
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer h5{
+    font-size: 1em;
+    margin: 0;
+    font-weight: 400;
+}
+.content{
+    width: 60%;
+    margin: 0 auto;
+}
+.media{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+.media a+a{
+    margin-left: 15%;
+}
+.media i{
+    font-size: 1em;
+}
+form{
+    display: inline-block;
+    margin: 0 10%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.email{
+    display: block;
+    width: 300px;
+    margin: 10px 0 10px;
+    padding: 10px;
+    border: 1px solid #D0D0D0;
+    background-color:	#4F4F4F ;
+    color: #D0D0D0 ;
+}
+.email::placeholder {
+    color: #D0D0D0 ;
+}
+input:focus{
+    outline: none;
+    border-color:#FFFFFF;
+    color: 	#FFFFFF;
+}
+input:focus::placeholder{
+    color: 	#FFFFFF;
+}
+.submit{
+    cursor: pointer;
+}
+.submit{
+    float: right;
+    background-color:	#D0D0D0;
+    font-size: 1em;
+    padding: 5px 10px ;
+    color: 	#3C3C3C;
+    border: none;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+address{
+    display: inline-block;
+    vertical-align: top;
+}
+address a{
+    display: block;
+}
+.copyright{
+    margin-top: 6vh;
+}
+.copyright a{
+    color:  #D0D0D0;
+    text-decoration:underline;
+}
