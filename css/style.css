@@ -15,12 +15,10 @@
   *{ 
 	/* outline: 1px solid cadetblue;  */
 }
-html{
-	min-width: 1800px;
-}
 body{
     margin:0;
     padding:0;
+    min-width: 1800px;
 }
 header{
     background-color:	#4F4F4F;
@@ -29,23 +27,28 @@ nav{
     text-align: center;
     padding: 3vh 0;
 }
+.logo{
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+}
 nav h1{
     font-size: 2em;
     letter-spacing: 0.2em;
-    display: inline-block;
     color: #D3D3D3;
-    vertical-align: middle;
 }
 .menu{
     display: inline-block;
     margin:0 100px;
     vertical-align: middle;
 }
+
 .menu a{
     font-size: 1.5em;
     text-decoration: none;
     color:	#D0D0D0;
 }
+
 .menu a:hover{
     color: white;
     transition: all 1s;
@@ -88,6 +91,7 @@ nav h1{
     font-size: 1.5em;
     cursor: pointer;
     border: none;
+    outline: none;
 }
 .message{
     font-size: 1.5em;
@@ -96,6 +100,7 @@ nav h1{
     letter-spacing: 0.2em;
     padding: 10px 0 ;
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     color: #4F4F4F;
 }
 article{
@@ -112,19 +117,24 @@ article{
 }
 .information hr{
     width: 3em;
-    font-weight: 500;
+    height: 1px;
     margin: 50px auto;
+    background-color:black;
 }
 .information h4{
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: 0.5em;
-    font-family: serif;
+    font-family:  'Raleway', sans-serif;
+    font-weight: 700;
     margin: 0;
 }
 .product{
     margin-top: 10vh;
     text-align: center;
     font-size: 0;
+}
+.product a{
+    display: inline-block;
 }
 .product a+a{
     margin-left:1%;
@@ -142,11 +152,13 @@ footer{
 footer a{
     color: white;
     text-decoration: none;
+    font-weight: 700;
 }
 footer h5{
     font-size: 1em;
     margin: 0;
     font-weight: 400;
+    font-family:;
 }
 .content{
     width: 60%;
@@ -157,11 +169,12 @@ footer h5{
     text-align: center;
     vertical-align: top;
 }
-.media a+a{
-    margin-left: 15%;
+.icon{
+    text-align-last: justify;
+    margin-top: 1vh;
 }
 .media i{
-    font-size: 1em;
+    font-size: 1.2em;
 }
 form{
     display: inline-block;
@@ -173,11 +186,13 @@ form{
 .email{
     display: block;
     width: 300px;
-    margin: 10px 0 10px;
-    padding: 10px;
+    margin: 1vh 0 1vh;
+    padding: 8px;
     border: 1px solid #D0D0D0;
     background-color:	#4F4F4F ;
     color: #D0D0D0 ;
+    font-weight: 500;
+    font-size: 1em;
 }
 .email::placeholder {
     color: #D0D0D0 ;
@@ -209,9 +224,12 @@ input:focus::placeholder{
 address{
     display: inline-block;
     vertical-align: top;
+    font-style: normal;
 }
 address a{
     display: block;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1vh;
 }
 .copyright{
     margin-top: 6vh;
@@ -219,4 +237,5 @@ address a{
 .copyright a{
     color:  #D0D0D0;
     text-decoration:underline;
+    font-family: 'Raleway', sans-serif;
 }
